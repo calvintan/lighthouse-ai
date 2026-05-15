@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lighthouse AI Layout Mock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell canvas-closed">
+      <section class="chat-pane">
+        <div class="chat-column">
+          <div class="top-bar">
+            <header class="brand-bar">
+              <div class="brand-mark">
+                <div>
+                  <div class="brand-title-row">
+                    <h1>Lighthouse AI</h1>
+                    <span class="badge badge-beta">BETA</span>
+                  </div>
+                  <p>AI Research Partner for Global Market Intelligence</p>
+                </div>
+              </div>
+            </header>
+
+            <div class="canvas-toolbar">
+              <button type="button" class="ghost-action">New Research <span>＋</span></button>
+              <div class="profile-chip">JS</div>
+            </div>
+          </div>
+
+          <div class="conversation-scroll">
+            <div class="conversation">
+              <div class="timestamp align-right">10:02 AM</div>
+              <article class="message message-user">
+                <p>
+                  I want to understand the demand, pricing, and key buying factors for AC
+                  home chargers in Germany. Target EV owners and homeowners.
+                </p>
+              </article>
+
+              <div class="message-row">
+                <div class="avatar" aria-hidden="true">✦</div>
+                <div class="message-stack">
+                  <div class="timestamp">10:02 AM</div>
+                  <article class="message message-assistant">
+                    <p>Got it. I’ll put together a research plan for you.</p>
+                    <p>To make it more accurate, could you help me with a few details?</p>
+                    <ul>
+                      <li>What is the main goal of this research?</li>
+                      <li>Any specific region focus in Germany (e.g., urban vs rural)?</li>
+                      <li>Do you have a target timeline or budget in mind?</li>
+                      <li>Any competitor or product you want to benchmark against?</li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+
+              <div class="timestamp align-right">10:04 AM</div>
+              <article class="message message-user message-user-small">
+                <p>
+                  Goal is to validate market opportunity and pricing range. Nationwide is
+                  fine. Timeline 4–6 weeks. Budget around $10k. No specific competitors.
+                </p>
+                <span class="checkmark">✓✓</span>
+              </article>
+
+              <div class="message-row">
+                <div class="avatar" aria-hidden="true">✦</div>
+                <div class="message-stack">
+                  <div class="timestamp">10:04 AM</div>
+                  <article class="message message-assistant">
+                    <p>Thanks! I've created a proposed research plan based on your inputs.</p>
+                    <button
+                      type="button"
+                      class="plan-teaser"
+                      id="open-plan"
+                      aria-controls="plan-canvas"
+                      aria-expanded="false"
+                    >
+                      <div class="plan-teaser-copy">
+                        <div class="plan-teaser-title-row">
+                          <span class="doc-icon">⌘</span>
+                          <strong>Proposed Research Plan</strong>
+                          <span class="badge badge-draft">Draft</span>
+                        </div>
+                        <span>Click to view the plan details</span>
+                      </div>
+                      <span class="plan-arrow">›</span>
+                    </button>
+                  </article>
+                </div>
+              </div>
+
+              <div class="message-row">
+                <div class="avatar" aria-hidden="true">✦</div>
+                <div class="message-stack">
+                  <div class="timestamp">10:04 AM</div>
+                  <article class="message message-assistant message-short">
+                    <p>Would you like me to adjust anything, or shall we proceed with this plan?</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="composer">
+          <div class="composer-box">
+            <p>Ask anything or tell me what to change...</p>
+            <div class="composer-actions">
+              <div class="composer-left">
+                <button type="button" class="icon-button" aria-label="Add">+</button>
+                <button type="button" class="icon-button" aria-label="Attach">⌁</button>
+              </div>
+              <button type="button" class="send-button" aria-label="Send">↑</button>
+            </div>
+          </div>
+          <span class="composer-note">
+            AI can make mistakes. Please verify important information.
+          </span>
+        </footer>
+      </section>
+
+      <aside class="canvas-pane" id="plan-canvas" aria-hidden="true">
+        <section class="plan-card">
+          <header class="plan-card-header">
+            <div>
+              <div class="plan-title-row">
+                <h2>Proposed Research Plan</h2>
+                <span class="badge badge-draft">Draft</span>
+              </div>
+              <p>Created just now</p>
+            </div>
+            <div class="plan-header-actions">
+              <button type="button" class="toolbar-button">⇩ Download</button>
+              <button type="button" class="icon-plain" id="close-plan" aria-label="Close">×</button>
+            </div>
+          </header>
+
+          <div class="plan-scroll">
+            <div class="section-card">
+              <div class="section-header">
+                <h3>1. Research Overview</h3>
+                <span>︿</span>
+              </div>
+              <div class="overview-grid">
+                <div>
+                  <label>Project</label>
+                  <p>AC Home Charger Market Study - Germany</p>
+                </div>
+                <div>
+                  <label>Objective</label>
+                  <p>Validate market opportunity, pricing range, and key buying factors</p>
+                </div>
+                <div>
+                  <label>Target Market</label>
+                  <p>Germany (Nationwide)</p>
+                </div>
+                <div>
+                  <label>Target Respondents</label>
+                  <p>EV Owners, Homeowners</p>
+                </div>
+                <div>
+                  <label>Timeline</label>
+                  <p>4–6 weeks</p>
+                </div>
+                <div>
+                  <label>Estimated Budget</label>
+                  <p>$10,000 USD</p>
+                </div>
+                <div>
+                  <label>Confidence Level</label>
+                  <span class="badge badge-success">High</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-card">
+              <div class="section-header">
+                <h3>2. Research Approach</h3>
+                <span>︿</span>
+              </div>
+              <div class="approach-grid">
+                <article class="approach-item">
+                  <div class="approach-icon">⇪</div>
+                  <div>
+                    <strong>Quantitative Survey</strong>
+                    <p>300 responses</p>
+                  </div>
+                </article>
+                <article class="approach-item">
+                  <div class="approach-icon">⌘</div>
+                  <div>
+                    <strong>In-depth Interviews</strong>
+                    <p>15 interviews</p>
+                  </div>
+                </article>
+                <article class="approach-item">
+                  <div class="approach-icon">▤</div>
+                  <div>
+                    <strong>Secondary Research</strong>
+                    <p>Market reports, public data, competitor info</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="section-card">
+              <div class="section-header">
+                <h3>3. Target Respondents</h3>
+                <span>︿</span>
+              </div>
+              <div class="respondents-table">
+                <div class="table-head">Segment</div>
+                <div class="table-head">Criteria</div>
+                <div class="table-head"># of Responses</div>
+                <div class="table-head">Est. Cost</div>
+
+                <div>EV Owners</div>
+                <div>Own EV, live in DE, 25–55 yrs</div>
+                <div>150</div>
+                <div>$3,600</div>
+
+                <div>Homeowners</div>
+                <div>Own home, plan to install charger</div>
+                <div>100</div>
+                <div>$2,400</div>
+
+                <div>Installers / Electricians</div>
+                <div>Install EV chargers professionally</div>
+                <div>30</div>
+                <div>$1,650</div>
+
+                <div>Distributors / Retailers</div>
+                <div>Sell or distribute EV chargers</div>
+                <div>20</div>
+                <div>$1,400</div>
+              </div>
+            </div>
+
+            <div class="accordion-row">
+              <span>4. Key Topics to Cover</span>
+              <div class="accordion-meta">
+                <span class="pill">12 topics</span>
+                <span>﹀</span>
+              </div>
+            </div>
+
+            <div class="accordion-row">
+              <span>5. Deliverables</span>
+              <div class="accordion-meta">
+                <span class="pill">4 items</span>
+                <span>﹀</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card-footer">
+            <button type="button" class="full-plan-button">Approve plan and proceed</button>
+          </div>
+        </section>
+      </aside>
+    </main>
+    <script>
+      const shell = document.querySelector(".app-shell");
+      const canvas = document.getElementById("plan-canvas");
+      const openPlanButton = document.getElementById("open-plan");
+      const closePlanButton = document.getElementById("close-plan");
+
+      const setCanvasOpen = (isOpen) => {
+        shell.classList.toggle("canvas-open", isOpen);
+        shell.classList.toggle("canvas-closed", !isOpen);
+        canvas.setAttribute("aria-hidden", String(!isOpen));
+        openPlanButton.setAttribute("aria-expanded", String(isOpen));
+      };
+
+      openPlanButton.addEventListener("click", () => setCanvasOpen(true));
+      closePlanButton.addEventListener("click", () => setCanvasOpen(false));
+    </script>
+  </body>
+</html>
