@@ -83,6 +83,7 @@ button {
   flex: 0 0 auto;
   height: var(--top-bar-height);
   padding: 2px 2px 22px;
+  border-bottom: 1px solid rgba(221, 224, 241, 0.82);
 }
 
 .brand-mark {
@@ -90,7 +91,6 @@ button {
   align-items: flex-start;
   gap: 0;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(221, 224, 241, 0.82);
 }
 
 .brand-title-row {
@@ -360,7 +360,6 @@ button {
   align-items: center;
   gap: 16px;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(221, 224, 241, 0.82);
 }
 
 .ghost-action {
@@ -576,7 +575,7 @@ button {
 
 .canvas-pane {
   position: absolute;
-  top: calc(var(--shell-top) + var(--top-bar-height));
+  top: var(--shell-top);
   right: 30px;
   bottom: var(--shell-bottom);
   width: min(43vw, 680px);
@@ -695,7 +694,7 @@ button {
   }
 
   .canvas-pane {
-    top: calc(var(--shell-top) + var(--top-bar-height));
+    top: var(--shell-top);
     right: 14px;
     bottom: 14px;
     width: calc(100vw - 28px);
