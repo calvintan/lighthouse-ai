@@ -598,6 +598,9 @@ button {
 }
 
 .full-plan-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 17px 24px 19px;
   border-radius: 14px;
@@ -605,6 +608,7 @@ button {
   color: #ffffff;
   font-weight: 800;
   text-align: center;
+  text-decoration: none;
   box-shadow: 0 18px 36px rgba(96, 96, 255, 0.24);
 }
 

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lighthouse AI Execution Mock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="execution.css" />
+  </head>
+  <body>
+    <main class="execution-shell plan-closed">
+      <section class="execution-main">
+        <div class="execution-column">
+          <div class="execution-scroll">
+            <a class="back-link" href="index.html">← Back</a>
+            <div class="wizard-steps wizard-steps-shell">
+              <div class="wizard-step wizard-step-done">
+                <div class="wizard-node">✓</div>
+                <div class="wizard-label">Plan Approved</div>
+              </div>
+              <div class="wizard-line wizard-line-active"></div>
+              <div class="wizard-step wizard-step-active">
+                <div class="wizard-node">2</div>
+                <div class="wizard-label">Finding Participants</div>
+              </div>
+              <div class="wizard-line"></div>
+              <div class="wizard-step">
+                <div class="wizard-node">3</div>
+                <div class="wizard-label">Surveys in Progress</div>
+              </div>
+              <div class="wizard-line"></div>
+              <div class="wizard-step">
+                <div class="wizard-node">4</div>
+                <div class="wizard-label">Data Collected</div>
+              </div>
+              <div class="wizard-line"></div>
+              <div class="wizard-step">
+                <div class="wizard-node">5</div>
+                <div class="wizard-label">Analysis &amp; Report</div>
+              </div>
+            </div>
+
+            <section class="hero-block">
+              <div class="hero-header">
+                <div class="brand-title-row hero-title-row">
+                  <h2>Executing Your Research Plan</h2>
+                </div>
+                <button type="button" class="ghost-action" id="open-plan" aria-controls="approved-plan-panel" aria-expanded="false">
+                  View Full Plan <span>↗</span>
+                </button>
+              </div>
+              <p>AI is orchestrating the research and gathering the right participants.</p>
+            </section>
+
+            <section class="wizard-card">
+              <div class="stage-card">
+                <div class="stage-header">
+                  <div>
+                    <h3>Finding and qualifying the right participants.</h3>
+                    <p>AI is sourcing from your network and external channels.</p>
+                  </div>
+                  <button type="button" class="toolbar-button stage-button">↗ View Sourcing Strategy</button>
+                </div>
+
+                <div class="source-grid">
+                  <article class="source-card">
+                    <div class="source-card-head">
+                      <span class="source-icon">◌</span>
+                      <strong>From Your Network</strong>
+                    </div>
+                    <div class="source-metric">248</div>
+                    <p>Potential matches found</p>
+                  </article>
+
+                  <article class="source-card">
+                    <div class="source-card-head">
+                      <span class="source-icon">◎</span>
+                      <strong>External Sourcing</strong>
+                    </div>
+                    <div class="source-metric">612</div>
+                    <p>Potential matches found</p>
+                    <div class="source-logos">
+                      <span>in</span>
+                      <span>⌂</span>
+                      <span>◫</span>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="segment-tabs">
+                <button type="button" class="segment-tab segment-tab-active">All Segments</button>
+                <button type="button" class="segment-tab">EV Owners</button>
+                <button type="button" class="segment-tab">Homeowners</button>
+                <button type="button" class="segment-tab">Installers / Electricians</button>
+                <button type="button" class="segment-tab">Distributors / Retailers</button>
+              </div>
+
+              <section class="participants-table-card">
+                <div class="participants-header">
+                  <div>Segment</div>
+                  <div>Sourcing Progress</div>
+                  <div>Qualified</div>
+                  <div>Invited</div>
+                  <div>Accepted</div>
+                  <div>Status</div>
+                  <div></div>
+                </div>
+
+                <div class="participant-row">
+                  <div class="participant-segment">
+                    <span class="participant-icon">◌</span>
+                    <div>
+                      <strong>EV Owners</strong>
+                      <p>Own EV, live in DE, 25–55 yrs</p>
+                    </div>
+                  </div>
+                  <div class="participant-progress">
+                    <div class="progress-track"><span style="width: 68%"></span></div>
+                    <strong>68%</strong>
+                  </div>
+                  <div>142</div>
+                  <div>86</div>
+                  <div>32</div>
+                  <div><span class="status-chip">Sourcing</span></div>
+                  <div class="participant-arrow">›</div>
+                </div>
+
+                <div class="participant-row">
+                  <div class="participant-segment">
+                    <span class="participant-icon">⌂</span>
+                    <div>
+                      <strong>Homeowners</strong>
+                      <p>Own home, plan to install charger</p>
+                    </div>
+                  </div>
+                  <div class="participant-progress">
+                    <div class="progress-track"><span style="width: 55%"></span></div>
+                    <strong>55%</strong>
+                  </div>
+                  <div>118</div>
+                  <div>64</div>
+                  <div>21</div>
+                  <div><span class="status-chip">Sourcing</span></div>
+                  <div class="participant-arrow">›</div>
+                </div>
+
+                <div class="participant-row">
+                  <div class="participant-segment">
+                    <span class="participant-icon">⌁</span>
+                    <div>
+                      <strong>Installers / Electricians</strong>
+                      <p>Install EV chargers professionally</p>
+                    </div>
+                  </div>
+                  <div class="participant-progress">
+                    <div class="progress-track"><span style="width: 40%"></span></div>
+                    <strong>40%</strong>
+                  </div>
+                  <div>76</div>
+                  <div>38</div>
+                  <div>12</div>
+                  <div><span class="status-chip">Sourcing</span></div>
+                  <div class="participant-arrow">›</div>
+                </div>
+
+                <div class="participant-row">
+                  <div class="participant-segment">
+                    <span class="participant-icon">▣</span>
+                    <div>
+                      <strong>Distributors / Retailers</strong>
+                      <p>Sell or distribute EV chargers</p>
+                    </div>
+                  </div>
+                  <div class="participant-progress">
+                    <div class="progress-track"><span style="width: 30%"></span></div>
+                    <strong>30%</strong>
+                  </div>
+                  <div>54</div>
+                  <div>22</div>
+                  <div>6</div>
+                  <div><span class="status-chip">Sourcing</span></div>
+                  <div class="participant-arrow">›</div>
+                </div>
+              </section>
+
+              <div class="insight-banner">
+                <div class="insight-icon">✦</div>
+                <div>
+                  <strong>AI is using multi-channel outreach and screening to find the most relevant and high-quality participants.</strong>
+                  <p>You’ll receive a notification once the first responses start coming in.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <aside class="execution-panel" id="approved-plan-panel" aria-hidden="true">
+        <section class="execution-sidebar-card">
+          <div class="execution-sidebar-scroll">
+            <header class="sidebar-section sidebar-plan-header">
+              <div class="sidebar-title-row">
+                <h3>Research Plan</h3>
+                <span class="badge badge-approved">Approved</span>
+              </div>
+              <button type="button" class="icon-plain sidebar-close" id="close-plan" aria-label="Close">×</button>
+              <strong class="sidebar-plan-name">AC Home Charger Market Study – Germany</strong>
+              <div class="sidebar-metadata">
+                <div>
+                  <label>Timeline</label>
+                  <p>Apr 28 – Jun 2, 2025 (5–6 weeks)</p>
+                </div>
+                <div>
+                  <label>Budget</label>
+                  <p>$10,000 USD</p>
+                </div>
+              </div>
+            </header>
+
+            <section class="sidebar-section">
+              <h4>Overall Progress</h4>
+              <div class="overall-progress-value">12%</div>
+              <p class="sidebar-subtext">Just started</p>
+              <div class="overall-progress-track"><span></span></div>
+            </section>
+
+            <section class="sidebar-section">
+              <h4>Plan Summary</h4>
+              <div class="summary-grid">
+                <label>Approach</label>
+                <p>Quantitative Survey + In-depth Interviews + Secondary Research</p>
+                <label>Target Participants</label>
+                <p>EV Owners, Homeowners, Installers, Distributors / Retailers</p>
+                <label>Total Target Responses</label>
+                <p>300</p>
+                <label>Estimated Interviews</label>
+                <p>15</p>
+                <label>Confidence Level</label>
+                <p><span class="badge badge-success">High</span></p>
+              </div>
+            </section>
+
+            <section class="sidebar-section next-step-card">
+              <h4>Next Step</h4>
+              <p>
+                Once we have enough accepted participants, we’ll launch the survey and
+                start collecting responses.
+              </p>
+            </section>
+          </div>
+
+        </section>
+      </aside>
+    </main>
+
+    <script>
+      const shell = document.querySelector(".execution-shell");
+      const panel = document.getElementById("approved-plan-panel");
+      const openPlanButton = document.getElementById("open-plan");
+      const closePlanButton = document.getElementById("close-plan");
+
+      const setPlanOpen = (isOpen) => {
+        shell.classList.toggle("plan-open", isOpen);
+        shell.classList.toggle("plan-closed", !isOpen);
+        panel.setAttribute("aria-hidden", String(!isOpen));
+        openPlanButton.setAttribute("aria-expanded", String(isOpen));
+      };
+
+      openPlanButton.addEventListener("click", () => setPlanOpen(true));
+      closePlanButton.addEventListener("click", () => setPlanOpen(false));
+    </script>
+  </body>
+</html>
