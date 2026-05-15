@@ -113,11 +113,18 @@
 
         <footer class="composer">
           <div class="composer-box">
-            <p>Ask anything or tell me what to change...</p>
+            <label class="composer-input-wrap" for="chat-input">
+              <span class="sr-only">Message</span>
+              <input
+                id="chat-input"
+                class="composer-input"
+                type="text"
+                placeholder="Ask anything or tell me what to change..."
+              />
+            </label>
             <div class="composer-actions">
               <div class="composer-left">
                 <button type="button" class="icon-button" aria-label="Add">+</button>
-                <button type="button" class="icon-button" aria-label="Attach">⌁</button>
               </div>
               <button type="button" class="send-button" aria-label="Send">↑</button>
             </div>
