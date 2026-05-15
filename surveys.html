@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lighthouse AI Surveys In Progress</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="execution.css" />
+    <link rel="stylesheet" href="surveys.css" />
+  </head>
+  <body>
+    <main class="surveys-shell panel-closed">
+      <section class="surveys-main">
+        <div class="surveys-column">
+          <div class="surveys-scroll">
+            <div class="crumb-row">
+              <a class="crumb-link" href="#">Projects</a>
+              <span class="crumb-sep">›</span>
+              <span class="crumb-current">AC Home Charger Market Study – Germany</span>
+            </div>
+
+            <section class="surveys-hero">
+              <div class="surveys-hero-header">
+                <div class="surveys-title-row">
+                  <h1>Surveys in Progress</h1>
+                  <!-- <span class="step-pill">Step 3 of 6</span> -->
+                </div>
+                <button
+                  type="button"
+                  class="ghost-action"
+                  id="open-plan"
+                  aria-controls="survey-plan-panel"
+                  aria-expanded="false"
+                >
+                  View Full Plan <span>↗</span>
+                </button>
+              </div>
+              <p>AI is conducting surveys and interviews with your selected participants.</p>
+            </section>
+
+            <div class="wizard-steps wizard-steps-shell surveys-wizard">
+              <div class="wizard-step wizard-step-done">
+                <div class="wizard-node">✓</div>
+                <div class="wizard-label">Plan Approved</div>
+              </div>
+              <div class="wizard-line wizard-line-success"></div>
+              <a class="wizard-step wizard-step-link wizard-step-done" href="execution.html">
+                <div class="wizard-node">✓</div>
+                <div class="wizard-label">Finding Participants</div>
+              </a>
+              <div class="wizard-line wizard-line-success"></div>
+              <a class="wizard-step wizard-step-link wizard-step-active" href="surveys.html">
+                <div class="wizard-node">3</div>
+                <div class="wizard-label">Surveys in Progress</div>
+              </a>
+              <div class="wizard-line"></div>
+              <div class="wizard-step">
+                <div class="wizard-node">4</div>
+                <div class="wizard-label">Data Analysis</div>
+              </div>
+              <div class="wizard-line"></div>
+              <div class="wizard-step">
+                <div class="wizard-node">5</div>
+                <div class="wizard-label">Report</div>
+              </div>
+            </div>
+
+            <section class="surveys-card">
+              <div class="survey-tabs">
+                <button type="button" class="survey-tab">Not Started (18)</button>
+                <button type="button" class="survey-tab">In Progress (46)</button>
+                <button type="button" class="survey-tab survey-tab-active">Completed (20)</button>
+              </div>
+
+              <div class="survey-table-wrap">
+                <div class="survey-table-head">
+                  <div>
+                    <h2>Completed Surveys</h2>
+                    <p>Responses that have been fully completed by participants.</p>
+                  </div>
+                  <button type="button" class="toolbar-button export-button">⇩ Export All</button>
+                </div>
+
+                <div class="survey-grid survey-grid-header">
+                  <div>Participant</div>
+                  <div>Segment</div>
+                  <div>Type</div>
+                  <div>Completed On</div>
+                  <div>Duration</div>
+                  <div>Actions</div>
+                </div>
+
+                <div class="survey-grid survey-row">
+                  <div class="survey-participant">
+                    <span class="participant-avatar avatar-ev">EV</span>
+                    <div>
+                      <strong>Eva Muller</strong>
+                      <p>EV Owner</p>
+                      <span>Munich, Germany</span>
+                    </div>
+                  </div>
+                  <div><span class="survey-pill pill-ev">EV Owners</span></div>
+                  <div class="survey-type"><span>▣</span> Survey</div>
+                  <div class="survey-date">May 14, 2025<br />10:24 AM</div>
+                  <div>12m 34s</div>
+                  <div><button type="button" class="table-action">View Entry</button></div>
+                </div>
+
+                <div class="survey-grid survey-row">
+                  <div class="survey-participant">
+                    <span class="participant-avatar avatar-ev">TS</span>
+                    <div>
+                      <strong>Thomas Schneider</strong>
+                      <p>EV Owner</p>
+                      <span>Hamburg, Germany</span>
+                    </div>
+                  </div>
+                  <div><span class="survey-pill pill-ev">EV Owners</span></div>
+                  <div class="survey-type"><span>▣</span> Survey</div>
+                  <div class="survey-date">May 14, 2025<br />09:58 AM</div>
+                  <div>9m 11s</div>
+                  <div><button type="button" class="table-action">View Entry</button></div>
+                </div>
+
+                <div class="survey-grid survey-row">
+                  <div class="survey-participant">
+                    <span class="participant-avatar avatar-home">AK</span>
+                    <div>
+                      <strong>Anna Kohler</strong>
+                      <p>Homeowner</p>
+                      <span>Frankfurt, Germany</span>
+                    </div>
+                  </div>
+                  <div><span class="survey-pill pill-home">Homeowners</span></div>
+                  <div class="survey-type"><span>▣</span> Survey</div>
+                  <div class="survey-date">May 13, 2025<br />07:42 PM</div>
+                  <div>11m 02s</div>
+                  <div><button type="button" class="table-action">View Entry</button></div>
+                </div>
+
+                <div class="survey-grid survey-row">
+                  <div class="survey-participant">
+                    <span class="participant-avatar avatar-home-alt">MW</span>
+                    <div>
+                      <strong>Michael Wagner</strong>
+                      <p>Homeowner</p>
+                      <span>Stuttgart, Germany</span>
+                    </div>
+                  </div>
+                  <div><span class="survey-pill pill-home">Homeowners</span></div>
+                  <div class="survey-type"><span>▣</span> Survey</div>
+                  <div class="survey-date">May 13, 2025<br />06:31 PM</div>
+                  <div>8m 45s</div>
+                  <div><button type="button" class="table-action">View Entry</button></div>
+                </div>
+
+                <div class="survey-grid survey-row">
+                  <div class="survey-participant">
+                    <span class="participant-avatar avatar-installer">JL</span>
+                    <div>
+                      <strong>Julia Lehmann</strong>
+                      <p>Installer / Electrician</p>
+                      <span>Cologne, Germany</span>
+                    </div>
+                  </div>
+                  <div><span class="survey-pill pill-installer">Installers / Electricians</span></div>
+                  <div class="survey-type"><span>◌</span> Interview</div>
+                  <div class="survey-date">May 13, 2025<br />04:15 PM</div>
+                  <div>24m 18s</div>
+                  <div><button type="button" class="table-action">View Entry</button></div>
+                </div>
+
+                <div class="survey-grid survey-row">
+                  <div class="survey-participant">
+                    <span class="participant-avatar avatar-distributor">PB</span>
+                    <div>
+                      <strong>Peter Braun</strong>
+                      <p>Distributor</p>
+                      <span>Berlin, Germany</span>
+                    </div>
+                  </div>
+                  <div><span class="survey-pill pill-distributor">Distributors / Retailers</span></div>
+                  <div class="survey-type"><span>◌</span> Interview</div>
+                  <div class="survey-date">May 13, 2025<br />03:02 PM</div>
+                  <div>19m 47s</div>
+                  <div><button type="button" class="table-action">View Entry</button></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <aside class="surveys-panel" id="survey-plan-panel" aria-hidden="true">
+        <section class="surveys-sidebar-card">
+          <div class="surveys-sidebar-scroll">
+            <header class="sidebar-section sidebar-plan-header">
+              <div class="sidebar-title-row">
+                <h3>Research Plan</h3>
+                <span class="badge badge-approved">Approved</span>
+              </div>
+              <button type="button" class="icon-plain sidebar-close" id="close-plan" aria-label="Close">×</button>
+              <strong class="sidebar-plan-name">AC Home Charger Market Study – Germany</strong>
+              <div class="sidebar-metadata">
+                <div>
+                  <label>Timeline</label>
+                  <p>Apr 28 – Jun 2, 2025 (5–6 weeks)</p>
+                </div>
+                <div>
+                  <label>Budget</label>
+                  <p>$10,000 USD</p>
+                </div>
+              </div>
+              <a class="sidebar-inline-link" href="#">View full plan →</a>
+            </header>
+
+            <section class="sidebar-section">
+              <h4>Overall Progress</h4>
+              <div class="overall-progress-value">32%</div>
+              <p class="sidebar-subtext">In progress</p>
+              <div class="overall-progress-track"><span class="progress-32"></span></div>
+            </section>
+
+            <section class="sidebar-section live-status-card">
+              <h4>What's Happening Now</h4>
+              <div class="live-status-line">
+                <span class="live-dot"></span>
+                <strong>Surveys &amp; interviews are in progress</strong>
+              </div>
+              <p>
+                AI is conducting surveys and interviews, following up with participants,
+                and ensuring high-quality responses.
+              </p>
+              <button type="button" class="toolbar-button live-button">View real-time activity</button>
+            </section>
+
+            <section class="sidebar-section next-step-card surveys-next-step">
+              <h4>Next Step</h4>
+              <p>
+                Once enough responses are collected, we'll start analyzing the data and
+                generate insights.
+              </p>
+              <strong>Estimated start: In ~7–10 days</strong>
+            </section>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <script>
+      const shell = document.querySelector(".surveys-shell");
+      const panel = document.getElementById("survey-plan-panel");
+      const openPlanButton = document.getElementById("open-plan");
+      const closePlanButton = document.getElementById("close-plan");
+
+      const setPanelOpen = (isOpen) => {
+        shell.classList.toggle("panel-open", isOpen);
+        shell.classList.toggle("panel-closed", !isOpen);
+        panel.setAttribute("aria-hidden", String(!isOpen));
+        openPlanButton.setAttribute("aria-expanded", String(isOpen));
+      };
+
+      openPlanButton.addEventListener("click", () => setPanelOpen(true));
+      closePlanButton.addEventListener("click", () => setPanelOpen(false));
+    </script>
+  </body>
+</html>
