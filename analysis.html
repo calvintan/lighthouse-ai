@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lighthouse AI Analysis &amp; Findings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="execution.css" />
+    <link rel="stylesheet" href="analysis.css" />
+  </head>
+  <body>
+    <main class="analysis-shell panel-closed">
+      <section class="analysis-main">
+        <div class="analysis-column">
+          <div class="analysis-scroll">
+            <div class="crumb-row">
+              <a class="crumb-link" href="surveys.html">Projects</a>
+              <span class="crumb-sep">›</span>
+              <span class="crumb-current">AC Home Charger Market Study – Germany</span>
+            </div>
+
+            <section class="analysis-hero">
+              <div class="analysis-hero-header">
+                <div class="analysis-title-row">
+                  <h1>Analysis &amp; Findings</h1>
+                </div>
+                <button
+                  type="button"
+                  class="ghost-action"
+                  id="open-plan"
+                  aria-controls="analysis-plan-panel"
+                  aria-expanded="false"
+                >
+                  View Full Plan <span>↗</span>
+                </button>
+              </div>
+              <p>AI has compiled and analyzed the survey responses with additional data to generate key insights.</p>
+            </section>
+
+            <div class="wizard-steps wizard-steps-shell analysis-wizard">
+              <div class="wizard-step wizard-step-done">
+                <div class="wizard-node">✓</div>
+                <div class="wizard-label">Plan Approved</div>
+              </div>
+              <div class="wizard-line wizard-line-success"></div>
+              <a class="wizard-step wizard-step-link wizard-step-done" href="execution.html">
+                <div class="wizard-node">✓</div>
+                <div class="wizard-label">Finding Participants</div>
+              </a>
+              <div class="wizard-line wizard-line-success"></div>
+              <a class="wizard-step wizard-step-link wizard-step-done" href="surveys.html">
+                <div class="wizard-node">✓</div>
+                <div class="wizard-label">Surveys in Progress</div>
+              </a>
+              <div class="wizard-line wizard-line-active"></div>
+              <a class="wizard-step wizard-step-link wizard-step-active" href="analysis.html">
+                <div class="wizard-node">4</div>
+                <div class="wizard-label">Analysis &amp; Findings</div>
+              </a>
+              <div class="wizard-line"></div>
+              <a class="wizard-step wizard-step-link" href="recommendations.html">
+                <div class="wizard-node">5</div>
+                <div class="wizard-label">Recommendations</div>
+              </a>
+            </div>
+
+            <section class="findings-card">
+              <div class="findings-head">
+                <div>
+                  <h2>Key Findings</h2>
+                  <p>AI-generated insights from 20 completed surveys and additional data sources.</p>
+                </div>
+                <button type="button" class="toolbar-button findings-download">⇩ Download Findings (PDF)</button>
+              </div>
+
+              <div class="insight-grid">
+                <article class="insight-tile">
+                  <div class="tile-head">
+                    <h3>Strong Market Potential</h3>
+                    <span class="tile-icon tile-green">↗</span>
+                  </div>
+                  <div class="tile-metric">72%</div>
+                  <p>of EV owners prefer home charging as their primary option.</p>
+                </article>
+
+                <article class="insight-tile">
+                  <div class="tile-head">
+                    <h3>Price Sensitivity</h3>
+                    <span class="tile-icon tile-blue">⌂</span>
+                  </div>
+                  <div class="tile-metric">€600–€900</div>
+                  <p>is the sweet spot for most home charger buyers.</p>
+                </article>
+
+                <article class="insight-tile">
+                  <div class="tile-head">
+                    <h3>Key Purchase Drivers</h3>
+                    <span class="tile-icon tile-violet">◉</span>
+                  </div>
+                  <ul class="driver-list">
+                    <li>Charging speed</li>
+                    <li>Reliability &amp; safety</li>
+                    <li>Ease of installation</li>
+                  </ul>
+                </article>
+
+                <article class="insight-tile">
+                  <div class="tile-head">
+                    <h3>Top Feature Priority</h3>
+                    <span class="tile-icon tile-amber">☆</span>
+                  </div>
+                  <div class="tile-metric tile-metric-small">Smart app integration</div>
+                  <p>cited by 68% of respondents.</p>
+                </article>
+              </div>
+            </section>
+
+            <section class="analysis-detail-card">
+              <div class="analysis-detail-head">
+                <h2>Detailed Insight Highlights</h2>
+              </div>
+
+              <div class="analysis-tabs">
+                <button type="button" class="analysis-tab analysis-tab-active">Market Overview</button>
+                <button type="button" class="analysis-tab">Customer Needs</button>
+                <button type="button" class="analysis-tab">Product &amp; Features</button>
+                <button type="button" class="analysis-tab">Pricing</button>
+                <button type="button" class="analysis-tab">Channels</button>
+                <button type="button" class="analysis-tab">Barriers</button>
+                <button type="button" class="analysis-tab">Opportunities</button>
+              </div>
+
+              <div class="chart-grid">
+                <article class="chart-card">
+                  <h3>Market Size &amp; Growth</h3>
+                  <p>The German home charger market is expanding rapidly, driven by EV adoption and supportive policies.</p>
+                  <div class="chart-stats">
+                    <div>
+                      <strong>1.2M+</strong>
+                      <span>Estimated home chargers installed by end of 2025</span>
+                    </div>
+                    <div>
+                      <strong>+28%</strong>
+                      <span>YoY growth (2023–2025)</span>
+                    </div>
+                  </div>
+                  <svg class="line-chart" viewBox="0 0 320 170" aria-hidden="true">
+                    <path class="line-chart-grid" d="M16 145H304" />
+                    <path class="line-chart-path" d="M24 152 L46 138 L68 130 L90 130 L112 122 L134 122 L156 116 L178 118 L200 112 L222 96 L244 82 L266 84 L288 70 L304 20" />
+                  </svg>
+                </article>
+
+                <article class="chart-card">
+                  <h3>EV Adoption Trend</h3>
+                  <p>Increasing EV ownership fuels demand for convenient home charging solutions.</p>
+                  <span class="chart-caption">EV Share of New Car Sales in Germany</span>
+                  <div class="bar-chart">
+                    <div class="bar-item"><span>13%</span><div class="bar h-13"></div><label>2021</label></div>
+                    <div class="bar-item"><span>18%</span><div class="bar h-18"></div><label>2022</label></div>
+                    <div class="bar-item"><span>23%</span><div class="bar h-23"></div><label>2023</label></div>
+                    <div class="bar-item"><span>27%</span><div class="bar h-27"></div><label>2024</label></div>
+                    <div class="bar-item"><span>32%</span><div class="bar h-32"></div><label>2025*</label></div>
+                  </div>
+                  <span class="chart-footnote">*2025 projected</span>
+                </article>
+
+                <article class="chart-card">
+                  <h3>Competitive Landscape</h3>
+                  <p>Fragmented market with both global and local players.</p>
+                  <div class="donut-wrap">
+                    <svg class="donut-chart" viewBox="0 0 180 180" aria-hidden="true">
+                      <circle cx="90" cy="90" r="52" class="donut-base"></circle>
+                      <circle cx="90" cy="90" r="52" class="donut-segment donut-segment-a"></circle>
+                      <circle cx="90" cy="90" r="52" class="donut-segment donut-segment-b"></circle>
+                      <circle cx="90" cy="90" r="52" class="donut-segment donut-segment-c"></circle>
+                    </svg>
+                    <div class="donut-legend">
+                      <div><span class="legend-swatch legend-a"></span>Global Brands<br /><small>(e.g., Wallbox, Tesla)</small></div>
+                      <div><span class="legend-swatch legend-b"></span>European Brands<br /><small>(e.g., Mennekes, ABL)</small></div>
+                      <div><span class="legend-swatch legend-c"></span>Local / Others</div>
+                    </div>
+                  </div>
+                  <a class="analysis-link-button" href="#">View more detailed analysis →</a>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <aside class="analysis-panel" id="analysis-plan-panel" aria-hidden="true">
+        <section class="analysis-sidebar-card">
+          <div class="analysis-sidebar-scroll">
+            <header class="sidebar-section sidebar-plan-header">
+              <div class="sidebar-title-row">
+                <h3>Research Plan</h3>
+                <span class="badge badge-approved">Approved</span>
+              </div>
+              <button type="button" class="icon-plain sidebar-close" id="close-plan" aria-label="Close">×</button>
+              <strong class="sidebar-plan-name">AC Home Charger Market Study – Germany</strong>
+              <div class="sidebar-metadata">
+                <div>
+                  <label>Timeline</label>
+                  <p>Apr 28 – Jun 2, 2025 (5–6 weeks)</p>
+                </div>
+                <div>
+                  <label>Budget</label>
+                  <p>$10,000 USD</p>
+                </div>
+              </div>
+              <a class="sidebar-inline-link" href="#">View full plan →</a>
+            </header>
+
+            <section class="sidebar-section">
+              <h4>Overall Progress</h4>
+              <div class="overall-progress-value">68%</div>
+              <p class="sidebar-subtext">Analysis in progress</p>
+              <div class="overall-progress-track"><span class="progress-68"></span></div>
+            </section>
+
+            <section class="sidebar-section analysis-live-card">
+              <h4>What's Happening Now</h4>
+              <div class="live-status-line">
+                <span class="live-dot"></span>
+                <strong>AI is analyzing the collected data</strong>
+              </div>
+              <p>Lighthouse AI is processing survey responses and integrating secondary sources to uncover key insights and market opportunities.</p>
+              <div class="current-stage">
+                <span>Current stage:</span>
+                <span class="stage-chip">Data Analysis &amp; Synthesis</span>
+              </div>
+            </section>
+
+            <section class="sidebar-section next-step-card analysis-next-step">
+              <h4>Next Step</h4>
+              <strong>Recommendations</strong>
+              <p>AI will generate strategic recommendations based on the findings.</p>
+              <span>Estimated start: In ~2–3 days</span>
+            </section>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <script>
+      const shell = document.querySelector(".analysis-shell");
+      const panel = document.getElementById("analysis-plan-panel");
+      const openPlanButton = document.getElementById("open-plan");
+      const closePlanButton = document.getElementById("close-plan");
+
+      const setPanelOpen = (isOpen) => {
+        shell.classList.toggle("panel-open", isOpen);
+        shell.classList.toggle("panel-closed", !isOpen);
+        panel.setAttribute("aria-hidden", String(!isOpen));
+        openPlanButton.setAttribute("aria-expanded", String(isOpen));
+      };
+
+      openPlanButton.addEventListener("click", () => setPanelOpen(true));
+      closePlanButton.addEventListener("click", () => setPanelOpen(false));
+    </script>
+  </body>
+</html>
